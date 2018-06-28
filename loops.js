@@ -18,7 +18,7 @@ function whileLoop(num) {
 }
 
 function doWhileLoop(arr) {
-  while (arr.length > 0 && (maybeTrue() === true)) {
+  while (arr.length > 0 && maybeTrue() === true) {
     arr.pop()
   }
   return arr
